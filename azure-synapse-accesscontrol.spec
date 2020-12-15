@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-accesscontrol
 Version  : 0.4.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/f9/23/de7a94ff705820c776938e9ed0b0531ac2c15a109812a329bf115dedfeba/azure-synapse-accesscontrol-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/f9/23/de7a94ff705820c776938e9ed0b0531ac2c15a109812a329bf115dedfeba/azure-synapse-accesscontrol-0.4.0.zip
 Summary  : Microsoft Azure Synapse AccessControl Client Library for Python
@@ -12,10 +12,10 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-synapse-accesscontrol-python = %{version}-%{release}
 Requires: azure-synapse-accesscontrol-python3 = %{version}-%{release}
-Requires: azure-common~
+Requires: azure-common
 Requires: azure-core
 Requires: msrest
-BuildRequires : azure-common~
+BuildRequires : azure-common
 BuildRequires : azure-core
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992562
+export SOURCE_DATE_EPOCH=1608002617
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

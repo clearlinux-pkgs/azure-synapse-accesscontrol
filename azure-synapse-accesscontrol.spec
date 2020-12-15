@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-accesscontrol
 Version  : 0.4.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/f9/23/de7a94ff705820c776938e9ed0b0531ac2c15a109812a329bf115dedfeba/azure-synapse-accesscontrol-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/f9/23/de7a94ff705820c776938e9ed0b0531ac2c15a109812a329bf115dedfeba/azure-synapse-accesscontrol-0.4.0.zip
 Summary  : Microsoft Azure Synapse AccessControl Client Library for Python
